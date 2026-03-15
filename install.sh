@@ -136,6 +136,7 @@ configure_user_environment() {
     # Le plus simple est d'activer le timer, systemd est intelligent et ne fera rien si pas supporté
     info "Activation du TRIM hebdomadaire pour SSD..."
     systemctl enable --now fstrim.timer
+    sed -i "s|antidote|${USERNAME}|g" /home/${USERNAME}/.config/plasma-org.kde.plasma.desktop-appletsrc
 }
 
 
