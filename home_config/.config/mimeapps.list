@@ -1,0 +1,8 @@
+[Added Associations]
+video/x-matroska=smplayer.desktop;org.kde.haruna.desktop;smplayer_enqueue.desktop;org.bunkus.mkvtoolnix-gui.desktop;mpv.desktop;
+
+[Default Applications]
+video/x-matroska=smplayer.desktop;
+x-scheme-handler/http=vivaldi-stable.desktop
+x-scheme-handler/https=vivaldi-stable.desktop
+text/html=vivaldi-stable.desktop

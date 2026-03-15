@@ -1,0 +1,16 @@
+[stream-properties]
+Audio/Sink:node.name:auto_null={"mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["FL", "FR"]}
+Output/Audio:application.id:haruna={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "volume":1.000000, "mute":false}
+Output/Audio:application.id:SMPlayer={"mute":false, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "volume":1.000000}
+Output/Audio:media.role:Notification={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false, "channelMap":["FL", "FR"]}
+Input/Audio:application.id:org.kde.plasma-pa={"volume":1.000000, "channelMap":["MONO"], "mute":false, "channelVolumes":[1.000000]}
+Output/Audio:media.role:alert={"channelVolumes":[1.000000, 1.000000], "channelMap":[], "volume":1.000000, "mute":false}
+Output/Audio:application.name:Chromium={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false, "channelMap":["FL", "FR"]}
+Output/Audio:application.name:WEBRTC\sVoiceEngine={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false, "channelMap":[]}
+Input/Audio:application.name:WEBRTC\sVoiceEngine={"volume":1.000000, "channelVolumes":[1.000000], "mute":false, "channelMap":["MONO"]}
+Output/Audio:application.name:Firefox={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "volume":1.000000, "mute":false}
+Output/Audio:application.name:SMPlayer={"channelMap":["FL", "FR", "FC", "LFE", "SL", "SR"], "volume":1.000000, "mute":false, "channelVolumes":[1.000000, 1.000000, 1.000000, 1.000000, 1.000000, 1.000000]}
+Output/Audio:application.name:Vivaldi={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "mute":false, "channelMap":["FL", "FR"]}
+Output/Audio:application.name:PipeWire\sALSA\s\ovmware-vmx\c={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "mute":false, "channelMap":["FL", "FR"]}
+Output/Audio:application.id:jellyfin-desktop={"channelVolumes":[1.000000, 1.000000], "mute":false, "volume":1.000000, "channelMap":["FL", "FR"]}
+Output/Audio:application.name:VMware={"channelVolumes":[1.000000], "volume":1.000000, "mute":false, "channelMap":["MONO"]}

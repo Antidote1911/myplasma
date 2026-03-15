@@ -1,0 +1,13 @@
+[/home/antidote/.local/share/Trash]
+Days=7
+LimitReachedAction=0
+Percent=10
+UseSizeLimit=true
+UseTimeLimit=true
+
+[/mnt/Partage/.Trash-1000]
+Days=7
+LimitReachedAction=0
+Percent=10
+UseSizeLimit=true
+UseTimeLimit=true

@@ -1,0 +1,7 @@
+cryptyrust
+discord
+packarch-rmatrix
+mkvtoolnix-gui
+rustup
+keepassxc
+filezilla

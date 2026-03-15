@@ -1,0 +1,43 @@
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p2]
+EverMounted=true
+Icon=drive-harddisk-root
+LastNameSeen=endeavouros
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p3]
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme0n1p4]
+Icon=drive-harddisk
+LastNameSeen=Disque dur interne 749,0 Mio (nvme0n1p4)
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme1n1p1]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=EFI
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme1n1p2]
+EverMounted=true
+Icon=drive-harddisk-root
+LastNameSeen=endeavouros
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme1n1p3]
+Icon=drive-harddisk
+LastNameSeen=Basic data partition
+
+[Devices][/org/freedesktop/UDisks2/block_devices/nvme1n1p4]
+Icon=drive-harddisk
+LastNameSeen=Disque dur interne 749,0 Mio (nvme1n1p4)
+
+[General]
+AutomountEnabled=true
+AutomountOnLogin=true
+AutomountOnPlugin=true

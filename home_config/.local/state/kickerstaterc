@@ -1,0 +1,7 @@
+InstalledApps=org.kde.kinfocenter.desktop,assistant.desktop,org.kde.okular.desktop,org.kde.kate.desktop,org.gnome.Meld.desktop,yad-icon-browser.desktop,assistant.desktop,qdbusviewer.desktop,linguist.desktop,designer.desktop,org.kde.gwenview.desktop,org.kde.okular.desktop,discord.desktop,bssh.desktop,bvnc.desktop,filezilla.desktop,firefox.desktop,org.kde.kdeconnect.app.desktop,org.kde.kdeconnect.sms.desktop,org.pulseaudio.pavucontrol.desktop,filebot.desktop,org.kde.haruna.desktop,mpv.desktop,org.bunkus.mkvtoolnix-gui.desktop,qv4l2.desktop,qvidcap.desktop,smplayer.desktop,org.kde.kinfocenter.desktop,systemsettings.desktop,org.pulseaudio.pavucontrol.desktop,org.kde.dolphin.desktop,org.kde.kmenuedit.desktop,eos-apps-info.desktop,eos-log-tool.desktop,eos-quickstart.desktop,eos-update.desktop,avahi-discover.desktop,lstopo.desktop,htop.desktop,org.kde.konsole.desktop,jconsole-java-openjdk.desktop,jshell-java-openjdk.desktop,reflector-simple.desktop,org.kde.plasma-systemmonitor.desktop,uxterm.desktop,welcome.desktop,xterm.desktop,yad-settings.desktop,org.kde.ark.desktop,filebot.desktop,org.kde.kate.desktop,org.kde.kcalc.desktop,org.keepassxc.KeePassXC.desktop,org.kde.kwrite.desktop,org.kde.plasma.emojier.desktop,stoken-gui-small.desktop,stoken-gui.desktop,org.kde.spectacle.desktop,vim.desktop
+
+[Application][jconsole-java-openjdk.desktop]
+FirstSeen=2026,3,10
+
+[Application][jshell-java-openjdk.desktop]
+FirstSeen=2026,3,10

@@ -1,0 +1,7 @@
+[FileDialogSize]
+2 screens: Height=540
+2 screens: Width=960
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/Téléchargements/%5BLaCale%5D-The.Pitt.S02E10.MULTi.1080p.WEB.H265-FW.torrent,file:$HOME/Téléchargements/%5BLaCale%5D-The.Pitt.S02E09.MULTi.1080p.HMAX.WEB.H265-TyHD.torrent,file:$HOME/Téléchargements/%5BLaCale%5D-The.Pitt.S02E08.MULTi.1080p.WEB.H265-FW.torrent,file:$HOME/Téléchargements/Maries.au.premier.regard.S10E03.09.03.2026.VFF.1080p.WEB.EAC3.x264-BOUBA.torrent
+Recent URLs[$e]=file:$HOME/Téléchargements/,file:$HOME/Documents/,file:$HOME/
