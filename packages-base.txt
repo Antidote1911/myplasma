@@ -57,4 +57,6 @@ smplayer
 smplayer-skins
 smplayer-themes
 hunspell-fr
+vivaldi
+vivaldi-ffmpeg-codecs
 
