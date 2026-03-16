@@ -7,7 +7,6 @@ eos-breeze-sddm
 ffmpegthumbs
 fwupd
 gwenview
-haruna
 kate
 kcalc
 kde-cli-tools
@@ -53,6 +52,7 @@ numlockx
 oh-my-zsh-git
 zsh-theme-powerlevel10k-git
 packarch-fonts
+packarch-backgrounds
 smplayer
 smplayer-skins
 smplayer-themes
