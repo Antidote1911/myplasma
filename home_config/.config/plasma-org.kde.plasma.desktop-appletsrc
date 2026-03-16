@@ -58,7 +58,7 @@ positions={"1920x1080":["1","17"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/antidote/Images/wallpapers/default.jpg
+Image=file:///usr/share/wallpapers/Packarch/pastelmount.jpg
 
 [Containments][2]
 ItemGeometries-1920x1080=Applet-30:1552,32,352,320,0;
