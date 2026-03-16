@@ -137,6 +137,10 @@ configure_user_environment() {
     info "Activation du TRIM hebdomadaire pour SSD..."
     systemctl enable --now fstrim.timer
     sed -i "s|antidote|${USERNAME}|g" /home/${USERNAME}/.config/plasma-org.kde.plasma.desktop-appletsrc
+    sed -i "s|antidote|${USERNAME}|g" /home/${USERNAME}/Shortcuts/Documents
+    sed -i "s|antidote|${USERNAME}|g" /home/${USERNAME}/Shortcuts/Downloads
+    sed -i "s|antidote|${USERNAME}|g" /home/${USERNAME}/Shortcuts/Home
+    sed -i "s|antidote|${USERNAME}|g" /home/${USERNAME}/Shortcuts/Images
 }
 
 
