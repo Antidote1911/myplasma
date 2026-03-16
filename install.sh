@@ -117,7 +117,6 @@ configure_user_environment() {
     info "Déploiement des configurations utilisateur..."
 
     # Rsync direct avec le bon propriétaire
-    # rsync -a --chown="${USERNAME}:${USERNAME}" .config "/home/${USERNAME}/"
     rsync -a --chown="${USERNAME}:${USERNAME}" home_config/ "/home/${USERNAME}/"
 
     # Thèmes et UI
@@ -138,9 +137,14 @@ configure_user_environment() {
     systemctl enable --now fstrim.timer
     sed -i "s|antidote|${USERNAME}|g" /home/${USERNAME}/.config/plasma-org.kde.plasma.desktop-appletsrc
     sudo -u "${USERNAME}" mkdir -p /home/${USERNAME}/Shortcuts
+    sudo -u "${USERNAME}" ln -s /home/${USERNAME}/Images /home/${USERNAME}/Shortcuts/Images
     sudo -u "${USERNAME}" ln -s /home/${USERNAME}/Documents /home/${USERNAME}/Shortcuts/Documents
+    sudo -u "${USERNAME}" ln -s /home/${USERNAME}/Téléchargements /home/${USERNAME}/Shortcuts/Downloads
+    sudo -u "${USERNAME}" ln -s /home/${USERNAME} /home/${USERNAME}/Shortcuts/Home
+    sudo -u "${USERNAME}" ln -s /mnt/Partage /home/${USERNAME}/Shortcuts/Partage
+    sudo -u "${USERNAME}" ln -s /mnt/Partage/Logiciels/deluge/DelugeDL /home/${USERNAME}/Shortcuts/DelugeDL
+    sudo -u "${USERNAME}" ln -s /mnt/Partage/Logiciels/deluge/convert /home/${USERNAME}/Shortcuts/Convert
 }
-
 
 
 # Étape 6 : Finalisation
